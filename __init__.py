@@ -11,4 +11,4 @@ def summarize(text):
     patterns = build_patterns(keywords)
     matched_patterns = match_patterns(tokens, patterns)
     summary = generate_summary(tokens, matched_patterns)
-    return summary
+    return summary 
